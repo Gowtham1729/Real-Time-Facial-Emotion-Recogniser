@@ -193,7 +193,7 @@ print('Test accuracy:', score[1])
 #######################################################################
 from keras.models import model_from_json
 import numpy as np
-json_file = open('model1.json', 'r')
+json_file = open('model.json', 'r')
 loaded_model_json = json_file.read()
 json_file.close()
 #loaded_model = model_from_json(loaded_model_json)
