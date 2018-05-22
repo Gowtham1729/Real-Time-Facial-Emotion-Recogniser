@@ -13,6 +13,7 @@ json_file.close()
 #loaded_model = model_from_json(loaded_model_json)
 #######################################################################
 classifier = model_from_json(loaded_model_json)
+classifier.load_weights("model.h5")
 import cv2
 
 #face_cascade = cv2.CascadeClassifier('/home/gowtham/anaconda2/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml')
